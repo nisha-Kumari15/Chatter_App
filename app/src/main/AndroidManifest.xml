@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Chatter">
-        <activity android:name=".MainActivity2"></activity>
+        <activity android:name=".MainActivity3"></activity>
+        <activity android:name=".Forget" />
+        <activity android:name=".MainActivity2" />
         <activity android:name=".chat" />
         <activity android:name=".Users" />
         <activity android:name=".Register" />

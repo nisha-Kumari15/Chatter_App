@@ -20,6 +20,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.firebase.client.Firebase;
+import com.google.firebase.auth.FirebaseAuth;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -50,6 +51,7 @@ public class Register extends AppCompatActivity {
                 startActivity(new Intent(Register.this, MainActivity2.class));
             }
         });
+
 
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override

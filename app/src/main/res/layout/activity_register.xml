@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/login"
+    android:background="#425F78"
     android:orientation="vertical"
     tools:context=".Register">
 
@@ -22,7 +22,7 @@
         android:gravity="center"
         android:text="Register"
         android:textAlignment="center"
-        android:textColor="#071563"
+        android:textColor="#EBF0F1"
         android:textSize="64sp"
         android:textStyle="bold" />
 
@@ -37,6 +37,7 @@
         android:inputType="text"
         android:maxLines="1"
         android:textAlignment="center"
+        android:textColor="#C4C4C4"
         android:textStyle="bold" />
 
     <EditText
@@ -52,6 +53,7 @@
         android:inputType="textPassword"
         android:maxLines="1"
         android:textAlignment="center"
+        android:textColor="#C4C4C4"
         android:textStyle="bold" />
 
     <Button
@@ -75,9 +77,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="99dp"
         android:gravity="center"
-        android:text="Click here to login"
+        android:text="Already have an account? Log in"
         android:textAlignment="center"
-        android:textColor="#050D3C"
+        android:textColor="#FCFCFF"
         android:textSize="24sp"
         android:textStyle="bold" />
 

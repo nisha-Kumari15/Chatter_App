@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    android:background="@drawable/login"
+    android:background="#425F78"
     tools:context=".MainActivity2">
 
     <TextView
@@ -17,15 +17,13 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/username"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="88dp"
-        android:layout_marginBottom="54dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="89dp"
         android:fontFamily="@font/bangers"
         android:gravity="center"
         android:text="LOGIN"
-        android:textColor="#050B32"
+        android:textColor="#FFFFFF"
         android:textSize="72sp" />
 
     <EditText
@@ -39,6 +37,7 @@
         android:inputType="text"
         android:maxLines="1"
         android:textAlignment="center"
+        android:textColor="#C4C4C4"
         android:textStyle="bold" />
 
     <EditText
@@ -52,6 +51,7 @@
         android:inputType="textPassword"
         android:maxLines="1"
         android:textAlignment="center"
+        android:textColor="#C4C4C4"
         android:textStyle="bold" />
 
     <Button
@@ -75,7 +75,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="79dp"
         android:gravity="center"
-        android:text="Click here to register"
+        android:text="Create Account"
         android:textAlignment="center"
         android:textColor="#050D3C"
         android:textSize="24sp"
